@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+	background-color: #e0f2f1
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+form {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"],
+label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+input[type="button"],
+input[type="reset"] {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
